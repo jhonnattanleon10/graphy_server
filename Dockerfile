@@ -1,4 +1,4 @@
-FROM git/git-man@1:2.20.1-2+deb10u9
+FROM git@1:2.20.1-2+deb10u9
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
